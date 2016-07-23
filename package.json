@@ -1,0 +1,38 @@
+{
+  "name": "task-stream",
+  "version": "0.0.1",
+  "description": "Process tasks with Node's Stream API and get backpressure and other neat features for free",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elmigranto/task-stream.git"
+  },
+  "keywords": [
+    "task",
+    "tasks",
+    "stream",
+    "streams",
+    "queue",
+    "job",
+    "jobs",
+    "processing",
+    "queueinig"
+  ],
+  "author": "Alexey Zabrodsky <elmigranto@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elmigranto/task-stream/issues"
+  },
+  "homepage": "https://github.com/elmigranto/task-stream#readme",
+  "devDependencies": {
+    "curtain-down": "^1.0.0",
+    "eslint": "^3.1.1"
+  },
+  "dependencies": {
+    "debug": "^2.2.0"
+  }
+}
